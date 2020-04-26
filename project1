@@ -1,0 +1,14 @@
+import random
+import time
+print('Welcome to self timer')
+print()
+print('Everybody stand up')
+print('Stay standing until you think time is ended')
+print('Then sit down')
+print('Anyone still standing when time end loses ')
+print('The last person to sit down before time end will win')
+stand_time =random.randint(5, 20)
+print(stand_time)
+time.sleep(stand_time)
+print('**** TIME IS UP ****')
+
